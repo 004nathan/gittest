@@ -1,0 +1,78 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #aed7eb;
+}
+* {
+    
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+   }
+   
+#container
+{
+    height:850px;
+    width:600px;
+    margin:5% auto;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#headingDiv{
+    height:80px;
+    width:600px;
+    background-color: #ffffff;
+    text-align: center;
+    color: rgb(3, 64, 153);
+    box-shadow: 0 20px 65px rgba(87, 11, 16, 0.3);
+}
+#quoteDiv
+{
+    height:550px;
+    width:600px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 20px 65px rgba(87, 11, 16, 0.3);
+}
+#quoteMainDiv{
+    height:350px;
+    width:500px;
+    padding:20px;
+    box-shadow: 0 0 20px rgba(0,139,253,0.25);
+     border: 1px solid rgba(9, 82, 158, 0.29);
+    background-color: #ffffff;
+    text-align: center;
+    margin:10% auto;
+    overflow: scroll;
+    
+}
+#quoteMainDiv::-webkit-scrollbar {
+    display: none;
+  }
+#quoteText
+{
+    font-size:30px;
+    color: #142350;
+}
+#authorText
+{
+    font-size:20px;
+    color: #570c9d;
+}
+#quotebtn
+{
+   background-color: #17203d;
+   border: none;
+    height:60px;
+    width:200px;
+   border-radius: 8px;
+   font-size: 20px;
+   font-weight: 600;
+   color: #ffffff;
+   cursor: pointer;
+}
+/* #quotebtn:hover{
+
+} */
